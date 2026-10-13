@@ -1,4 +1,4 @@
-# 奶龙高校群组导航：GitHub 自动构建模板
+# 奶龙群组导航：GitHub 自动构建模板
 
 纯静态网站，不需要 PHP、数据库或常驻服务器。正式数据存储在 `public/data/groups.json`，GitHub Actions 负责校验、构建，并部署到 GitHub Pages。另附本地群组 JSON 录入工具。
 
