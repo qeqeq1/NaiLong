@@ -1,0 +1,29 @@
+name: 群组信息投稿
+description: 提交高校奶龙 / 奶蛙群组
+title: "[群组投稿] "
+labels: ["群组投稿", "待审核"]
+body:
+  - type: input
+    id: school
+    attributes: {label: 学校 / 组织名称}
+    validations: {required: true}
+  - type: input
+    id: group_name
+    attributes: {label: 群组名称}
+    validations: {required: true}
+  - type: input
+    id: qq
+    attributes: {label: QQ 群号, description: 仅填写数字}
+    validations: {required: true}
+  - type: dropdown
+    id: type
+    attributes: {label: 群组类型, options: [奶龙, 奶蛙, 联合会, 其他]}
+    validations: {required: true}
+  - type: textarea
+    id: intro
+    attributes: {label: 群组简介}
+    validations: {required: true}
+  - type: textarea
+    id: note
+    attributes: {label: 补充说明 / 信息来源}
+    validations: {required: false}
